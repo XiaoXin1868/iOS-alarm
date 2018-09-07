@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2170F21B500C6600EA5D37 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2170F11B500C6600EA5D37 /* UIView+Toast.m */; };
+		8B3E6ECD1B496AB400665740 /* TipCalculation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3E6ECC1B496AB400665740 /* TipCalculation.plist */; };
+		8B3E6ED01B49C52C00665740 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3E6ECF1B49C52C00665740 /* PinViewController.m */; };
+		8B3E6ED21B49C56D00665740 /* PinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3E6ED11B49C56D00665740 /* PinViewController.xib */; };
+		8B5ABCBE1B6EF9C200E88781 /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5ABCBD1B6EF9C200E88781 /* DateManager.m */; };
+		8B5ABCC11B6F36B100E88781 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5ABCC01B6F36B100E88781 /* Order.m */; };
+		8B5ABCCB1B6F63FF00E88781 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5ABCCA1B6F63FF00E88781 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8B61D3FF1B637CE7006303ED /* BraintreeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B61D3FE1B637CE7006303ED /* BraintreeManager.m */; };
+		8B6CF31D1B626C55006E084E /* WSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF31C1B626C55006E084E /* WSManager.m */; };
+		8B7321D21B43F49E009F4A23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7321D11B43F49E009F4A23 /* main.m */; };
+		8B7321D51B43F49F009F4A23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7321D41B43F49F009F4A23 /* AppDelegate.m */; };
+		8B7321D81B43F49F009F4A23 /* CenturyClub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B7321D61B43F49F009F4A23 /* CenturyClub.xcdatamodeld */; };
+		8B7321DB1B43F49F009F4A23 /* CCLoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7321DA1B43F49F009F4A23 /* CCLoginTableViewController.m */; };
+		8B7321DE1B43F49F009F4A23 /* CCRegistrationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7321DD1B43F49F009F4A23 /* CCRegistrationTableViewController.m */; };
+		8B7321E11B43F49F009F4A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7321DF1B43F49F009F4A23 /* Main.storyboard */; };
+		8B7321E31B43F49F009F4A23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7321E21B43F49F009F4A23 /* Images.xcassets */; };
+		8B7321E61B43F49F009F4A23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B7321E41B43F49F009F4A23 /* LaunchScreen.xib */; };
+		8B7321F21B43F49F009F4A23 /* CenturyClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7321F11B43F49F009F4A23 /* CenturyClubTests.m */; };
+		8B7321FD1B43FA64009F4A23 /* CCHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7321FC1B43FA64009F4A23 /* CCHomeTableViewController.m */; };
+		8B7322021B43FAE8009F4A23 /* CCDrinkListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7322011B43FAE8009F4A23 /* CCDrinkListTableViewController.m */; };
+		8B7322051B43FAFB009F4A23 /* CCSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7322041B43FAFB009F4A23 /* CCSettingTableViewController.m */; };
+		8B7322081B43FB86009F4A23 /* CCOrderVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7322071B43FB86009F4A23 /* CCOrderVerificationViewController.m */; };
+		8B73221A1B440900009F4A23 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B73220A1B440900009F4A23 /* Gotham-Black.otf */; };
+		8B73221B1B440900009F4A23 /* Gotham-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B73220B1B440900009F4A23 /* Gotham-BlackItalic.otf */; };
+		8B73221C1B440900009F4A23 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B73220C1B440900009F4A23 /* Gotham-Bold.otf */; };
+		8B73221D1B440900009F4A23 /* Gotham-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B73220D1B440900009F4A23 /* Gotham-BoldItalic.otf */; };
+		8B73221E1B440900009F4A23 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B73220E1B440900009F4A23 /* Gotham-Book.otf */; };
+		8B73221F1B440900009F4A23 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B73220F1B440900009F4A23 /* Gotham-BookItalic.otf */; };
+		8B7322201B440900009F4A23 /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322101B440900009F4A23 /* Gotham-Light.otf */; };
+		8B7322211B440900009F4A23 /* Gotham-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322111B440900009F4A23 /* Gotham-LightItalic.otf */; };
+		8B7322221B440900009F4A23 /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322121B440900009F4A23 /* Gotham-Medium.otf */; };
+		8B7322231B440900009F4A23 /* Gotham-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322131B440900009F4A23 /* Gotham-MediumItalic.otf */; };
+		8B7322241B440900009F4A23 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322141B440900009F4A23 /* Gotham-Thin.otf */; };
+		8B7322251B440900009F4A23 /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322151B440900009F4A23 /* Gotham-ThinItalic.otf */; };
+		8B7322261B440900009F4A23 /* Gotham-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322161B440900009F4A23 /* Gotham-Ultra.otf */; };
+		8B7322271B440900009F4A23 /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322171B440900009F4A23 /* Gotham-UltraItalic.otf */; };
+		8B7322281B440900009F4A23 /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322181B440900009F4A23 /* Gotham-XLight.otf */; };
+		8B7322291B440900009F4A23 /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7322191B440900009F4A23 /* Gotham-XLightItalic.otf */; };
+		8B73222C1B440A36009F4A23 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B73222B1B440A36009F4A23 /* Constants.m */; };
+		8B7322301B440B9B009F4A23 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B73222F1B440B9B009F4A23 /* Theme.m */; };
+		8B7322331B44553D009F4A23 /* DrawPatternLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7322311B44553D009F4A23 /* DrawPatternLockView.m */; };
+		8B7322361B445737009F4A23 /* PatternLockMattricsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7322351B445737009F4A23 /* PatternLockMattricsView.m */; };
+		8B7322381B445E57009F4A23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7322371B445E57009F4A23 /* MapKit.framework */; };
+		8B73223B1B446F9E009F4A23 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B73223A1B446F9E009F4A23 /* DAKeyboardControl.m */; };
+		8B7B2C5C1B48A17F00852A50 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B2C5B1B48A17F00852A50 /* User.m */; };
+		8B7B2C5F1B48AA3F00852A50 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B2C5E1B48AA3F00852A50 /* Utility.m */; };
+		8BB1A01A1B72BAC2003DB3A1 /* CCOrderHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A0191B72BAC2003DB3A1 /* CCOrderHistoryTableViewController.m */; };
+		8BB1A01D1B72BE6D003DB3A1 /* CCHistoryDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1A01C1B72BE6D003DB3A1 /* CCHistoryDetailTableViewController.m */; };
+		8BBB2A1A1B45A1EA00F2AC49 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB2A171B45A1EA00F2AC49 /* SVProgressHUD.bundle */; };
+		8BBB2A1B1B45A1EA00F2AC49 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBB2A191B45A1EA00F2AC49 /* SVProgressHUD.m */; };
+		8BBB2A1E1B45A88200F2AC49 /* SCChangePasswordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBB2A1D1B45A88200F2AC49 /* SCChangePasswordTableViewController.m */; };
+		8BE3963A1B6CD49C0043A225 /* CCResetPasswordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE396391B6CD49C0043A225 /* CCResetPasswordTableViewController.m */; };
+		8BE922FA1B6A391A0080FA99 /* USStates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BE922F91B6A391A0080FA99 /* USStates.plist */; };
+		FE4CF8FF7F4D18C07FCBAD0F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE30790BD3D27930CB72CEA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B7321EC1B43F49F009F4A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7321C41B43F49E009F4A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B7321CB1B43F49E009F4A23;
+			remoteInfo = CenturyClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B2170F01B500C6600EA5D37 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		8B2170F11B500C6600EA5D37 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		8B3E6ECC1B496AB400665740 /* TipCalculation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TipCalculation.plist; sourceTree = "<group>"; };
+		8B3E6ECE1B49C52C00665740 /* PinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinViewController.h; sourceTree = "<group>"; };
+		8B3E6ECF1B49C52C00665740 /* PinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinViewController.m; sourceTree = "<group>"; };
+		8B3E6ED11B49C56D00665740 /* PinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinViewController.xib; sourceTree = "<group>"; };
+		8B5ABCBC1B6EF9C200E88781 /* DateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
+		8B5ABCBD1B6EF9C200E88781 /* DateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
+		8B5ABCBF1B6F36B100E88781 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		8B5ABCC01B6F36B100E88781 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		8B5ABCC91B6F63FF00E88781 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		8B5ABCCA1B6F63FF00E88781 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		8B61D3FD1B637CE7006303ED /* BraintreeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreeManager.h; sourceTree = "<group>"; };
+		8B61D3FE1B637CE7006303ED /* BraintreeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeManager.m; sourceTree = "<group>"; };
+		8B6CF31B1B626C55006E084E /* WSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSManager.h; sourceTree = "<group>"; };
+		8B6CF31C1B626C55006E084E /* WSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSManager.m; sourceTree = "<group>"; };
+		8B7321CC1B43F49E009F4A23 /* CenturyClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenturyClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7321D01B43F49E009F4A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7321D11B43F49E009F4A23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B7321D31B43F49E009F4A23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B7321D41B43F49F009F4A23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B7321D71B43F49F009F4A23 /* CenturyClub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CenturyClub.xcdatamodel; sourceTree = "<group>"; };
+		8B7321D91B43F49F009F4A23 /* CCLoginTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCLoginTableViewController.h; sourceTree = "<group>"; };
+		8B7321DA1B43F49F009F4A23 /* CCLoginTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLoginTableViewController.m; sourceTree = "<group>"; };
+		8B7321DC1B43F49F009F4A23 /* CCRegistrationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCRegistrationTableViewController.h; sourceTree = "<group>"; };
+		8B7321DD1B43F49F009F4A23 /* CCRegistrationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCRegistrationTableViewController.m; sourceTree = "<group>"; };
+		8B7321E01B43F49F009F4A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B7321E21B43F49F009F4A23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B7321E51B43F49F009F4A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B7321EB1B43F49F009F4A23 /* CenturyClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenturyClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7321F01B43F49F009F4A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7321F11B43F49F009F4A23 /* CenturyClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenturyClubTests.m; sourceTree = "<group>"; };
+		8B7321FB1B43FA64009F4A23 /* CCHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHomeTableViewController.h; sourceTree = "<group>"; };
+		8B7321FC1B43FA64009F4A23 /* CCHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHomeTableViewController.m; sourceTree = "<group>"; };
+		8B7322001B43FAE8009F4A23 /* CCDrinkListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDrinkListTableViewController.h; sourceTree = "<group>"; };
+		8B7322011B43FAE8009F4A23 /* CCDrinkListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDrinkListTableViewController.m; sourceTree = "<group>"; };
+		8B7322031B43FAFB009F4A23 /* CCSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSettingTableViewController.h; sourceTree = "<group>"; };
+		8B7322041B43FAFB009F4A23 /* CCSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSettingTableViewController.m; sourceTree = "<group>"; };
+		8B7322061B43FB86009F4A23 /* CCOrderVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOrderVerificationViewController.h; sourceTree = "<group>"; };
+		8B7322071B43FB86009F4A23 /* CCOrderVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOrderVerificationViewController.m; sourceTree = "<group>"; };
+		8B73220A1B440900009F4A23 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		8B73220B1B440900009F4A23 /* Gotham-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BlackItalic.otf"; sourceTree = "<group>"; };
+		8B73220C1B440900009F4A23 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		8B73220D1B440900009F4A23 /* Gotham-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BoldItalic.otf"; sourceTree = "<group>"; };
+		8B73220E1B440900009F4A23 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		8B73220F1B440900009F4A23 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		8B7322101B440900009F4A23 /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		8B7322111B440900009F4A23 /* Gotham-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-LightItalic.otf"; sourceTree = "<group>"; };
+		8B7322121B440900009F4A23 /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.otf"; sourceTree = "<group>"; };
+		8B7322131B440900009F4A23 /* Gotham-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-MediumItalic.otf"; sourceTree = "<group>"; };
+		8B7322141B440900009F4A23 /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		8B7322151B440900009F4A23 /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-ThinItalic.otf"; sourceTree = "<group>"; };
+		8B7322161B440900009F4A23 /* Gotham-Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Ultra.otf"; sourceTree = "<group>"; };
+		8B7322171B440900009F4A23 /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-UltraItalic.otf"; sourceTree = "<group>"; };
+		8B7322181B440900009F4A23 /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
+		8B7322191B440900009F4A23 /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
+		8B73222A1B440A36009F4A23 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8B73222B1B440A36009F4A23 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		8B73222E1B440B9B009F4A23 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		8B73222F1B440B9B009F4A23 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		8B7322311B44553D009F4A23 /* DrawPatternLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPatternLockView.m; sourceTree = "<group>"; };
+		8B7322321B44553D009F4A23 /* DrawPatternLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPatternLockView.h; sourceTree = "<group>"; };
+		8B7322341B445737009F4A23 /* PatternLockMattricsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternLockMattricsView.h; sourceTree = "<group>"; };
+		8B7322351B445737009F4A23 /* PatternLockMattricsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternLockMattricsView.m; sourceTree = "<group>"; };
+		8B7322371B445E57009F4A23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8B7322391B446F9E009F4A23 /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
+		8B73223A1B446F9E009F4A23 /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
+		8B7B2C5A1B48A17F00852A50 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8B7B2C5B1B48A17F00852A50 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8B7B2C5D1B48AA3F00852A50 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		8B7B2C5E1B48AA3F00852A50 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		8BB1A0181B72BAC2003DB3A1 /* CCOrderHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOrderHistoryTableViewController.h; sourceTree = "<group>"; };
+		8BB1A0191B72BAC2003DB3A1 /* CCOrderHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOrderHistoryTableViewController.m; sourceTree = "<group>"; };
+		8BB1A01B1B72BE6D003DB3A1 /* CCHistoryDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHistoryDetailTableViewController.h; sourceTree = "<group>"; };
+		8BB1A01C1B72BE6D003DB3A1 /* CCHistoryDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHistoryDetailTableViewController.m; sourceTree = "<group>"; };
+		8BBB2A171B45A1EA00F2AC49 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		8BBB2A181B45A1EA00F2AC49 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		8BBB2A191B45A1EA00F2AC49 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		8BBB2A1C1B45A88200F2AC49 /* SCChangePasswordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCChangePasswordTableViewController.h; sourceTree = "<group>"; };
+		8BBB2A1D1B45A88200F2AC49 /* SCChangePasswordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCChangePasswordTableViewController.m; sourceTree = "<group>"; };
+		8BE396381B6CD49C0043A225 /* CCResetPasswordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCResetPasswordTableViewController.h; sourceTree = "<group>"; };
+		8BE396391B6CD49C0043A225 /* CCResetPasswordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCResetPasswordTableViewController.m; sourceTree = "<group>"; };
+		8BE922F91B6A391A0080FA99 /* USStates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = USStates.plist; sourceTree = SOURCE_ROOT; };
+		8E721E4B57FC2268E441F461 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5780265FBAC025C1ADF03E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BFE30790BD3D27930CB72CEA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B7321C91B43F49E009F4A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7322381B445E57009F4A23 /* MapKit.framework in Frameworks */,
+				FE4CF8FF7F4D18C07FCBAD0F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7321E81B43F49F009F4A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281293B4820EB7A015CB9E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B7322371B445E57009F4A23 /* MapKit.framework */,
+				BFE30790BD3D27930CB72CEA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76606E84CD013847DC869E93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E721E4B57FC2268E441F461 /* Pods.debug.xcconfig */,
+				BE5780265FBAC025C1ADF03E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B5ABCC21B6F36C400E88781 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8B6CF31B1B626C55006E084E /* WSManager.h */,
+				8B6CF31C1B626C55006E084E /* WSManager.m */,
+				8B61D3FD1B637CE7006303ED /* BraintreeManager.h */,
+				8B61D3FE1B637CE7006303ED /* BraintreeManager.m */,
+				8B5ABCBC1B6EF9C200E88781 /* DateManager.h */,
+				8B5ABCBD1B6EF9C200E88781 /* DateManager.m */,
+				8B73222A1B440A36009F4A23 /* Constants.h */,
+				8B73222B1B440A36009F4A23 /* Constants.m */,
+				8B7B2C5D1B48AA3F00852A50 /* Utility.h */,
+				8B7B2C5E1B48AA3F00852A50 /* Utility.m */,
+				8B73222E1B440B9B009F4A23 /* Theme.h */,
+				8B73222F1B440B9B009F4A23 /* Theme.m */,
+				8B7B2C5A1B48A17F00852A50 /* User.h */,
+				8B7B2C5B1B48A17F00852A50 /* User.m */,
+				8B5ABCBF1B6F36B100E88781 /* Order.h */,
+				8B5ABCC01B6F36B100E88781 /* Order.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		8B5ABCC31B6F36E700E88781 /* PinView */ = {
+			isa = PBXGroup;
+			children = (
+				8B3E6ECE1B49C52C00665740 /* PinViewController.h */,
+				8B3E6ECF1B49C52C00665740 /* PinViewController.m */,
+				8B3E6ED11B49C56D00665740 /* PinViewController.xib */,
+			);
+			name = PinView;
+			sourceTree = "<group>";
+		};
+		8B5ABCC41B6F36F500E88781 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				8B2170F01B500C6600EA5D37 /* UIView+Toast.h */,
+				8B2170F11B500C6600EA5D37 /* UIView+Toast.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		8B5ABCC51B6F36FE00E88781 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8B7322391B446F9E009F4A23 /* DAKeyboardControl.h */,
+				8B73223A1B446F9E009F4A23 /* DAKeyboardControl.m */,
+			);
+			name = KeyBoard;
+			sourceTree = "<group>";
+		};
+		8B5ABCC61B6F370C00E88781 /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				8B7322321B44553D009F4A23 /* DrawPatternLockView.h */,
+				8B7322311B44553D009F4A23 /* DrawPatternLockView.m */,
+				8B7322341B445737009F4A23 /* PatternLockMattricsView.h */,
+				8B7322351B445737009F4A23 /* PatternLockMattricsView.m */,
+			);
+			name = Pattern;
+			sourceTree = "<group>";
+		};
+		8B6D317C1B722A2800741027 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8B7322031B43FAFB009F4A23 /* CCSettingTableViewController.h */,
+				8B7322041B43FAFB009F4A23 /* CCSettingTableViewController.m */,
+				8BBB2A1C1B45A88200F2AC49 /* SCChangePasswordTableViewController.h */,
+				8BBB2A1D1B45A88200F2AC49 /* SCChangePasswordTableViewController.m */,
+				8BB1A0181B72BAC2003DB3A1 /* CCOrderHistoryTableViewController.h */,
+				8BB1A0191B72BAC2003DB3A1 /* CCOrderHistoryTableViewController.m */,
+				8BB1A01B1B72BE6D003DB3A1 /* CCHistoryDetailTableViewController.h */,
+				8BB1A01C1B72BE6D003DB3A1 /* CCHistoryDetailTableViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		8B7321C31B43F49E009F4A23 = {
+			isa = PBXGroup;
+			children = (
+				8B7321CE1B43F49E009F4A23 /* CenturyClub */,
+				8B7321EE1B43F49F009F4A23 /* CenturyClubTests */,
+				8B7321CD1B43F49E009F4A23 /* Products */,
+				76606E84CD013847DC869E93 /* Pods */,
+				281293B4820EB7A015CB9E4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B7321CD1B43F49E009F4A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B7321CC1B43F49E009F4A23 /* CenturyClub.app */,
+				8B7321EB1B43F49F009F4A23 /* CenturyClubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B7321CE1B43F49E009F4A23 /* CenturyClub */ = {
+			isa = PBXGroup;
+			children = (
+				8B7321FF1B43FA85009F4A23 /* Classes */,
+				8B7321FE1B43FA72009F4A23 /* Resources */,
+				8B7321CF1B43F49E009F4A23 /* Supporting Files */,
+			);
+			path = CenturyClub;
+			sourceTree = "<group>";
+		};
+		8B7321CF1B43F49E009F4A23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B7321D01B43F49E009F4A23 /* Info.plist */,
+				8B7321D11B43F49E009F4A23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B7321EE1B43F49F009F4A23 /* CenturyClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B7321F11B43F49F009F4A23 /* CenturyClubTests.m */,
+				8B7321EF1B43F49F009F4A23 /* Supporting Files */,
+			);
+			path = CenturyClubTests;
+			sourceTree = "<group>";
+		};
+		8B7321EF1B43F49F009F4A23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B7321F01B43F49F009F4A23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B7321FE1B43FA72009F4A23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B7322091B440900009F4A23 /* Font */,
+				8B3E6ECC1B496AB400665740 /* TipCalculation.plist */,
+				8B7321DF1B43F49F009F4A23 /* Main.storyboard */,
+				8B7321E21B43F49F009F4A23 /* Images.xcassets */,
+				8B7321E41B43F49F009F4A23 /* LaunchScreen.xib */,
+				8B7321D61B43F49F009F4A23 /* CenturyClub.xcdatamodeld */,
+				8BE922F91B6A391A0080FA99 /* USStates.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B7321FF1B43FA85009F4A23 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BE396361B6CD46A0043A225 /* AppDelegate */,
+				8B73222D1B440A40009F4A23 /* Support */,
+				8BE396371B6CD47B0043A225 /* Authentication */,
+				8B6D317C1B722A2800741027 /* Setting */,
+				8BB1A01F1B72D4C9003DB3A1 /* Home */,
+				8BB1A01E1B72D4C0003DB3A1 /* Order */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8B7322091B440900009F4A23 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8B73220A1B440900009F4A23 /* Gotham-Black.otf */,
+				8B73220B1B440900009F4A23 /* Gotham-BlackItalic.otf */,
+				8B73220C1B440900009F4A23 /* Gotham-Bold.otf */,
+				8B73220D1B440900009F4A23 /* Gotham-BoldItalic.otf */,
+				8B73220E1B440900009F4A23 /* Gotham-Book.otf */,
+				8B73220F1B440900009F4A23 /* Gotham-BookItalic.otf */,
+				8B7322101B440900009F4A23 /* Gotham-Light.otf */,
+				8B7322111B440900009F4A23 /* Gotham-LightItalic.otf */,
+				8B7322121B440900009F4A23 /* Gotham-Medium.otf */,
+				8B7322131B440900009F4A23 /* Gotham-MediumItalic.otf */,
+				8B7322141B440900009F4A23 /* Gotham-Thin.otf */,
+				8B7322151B440900009F4A23 /* Gotham-ThinItalic.otf */,
+				8B7322161B440900009F4A23 /* Gotham-Ultra.otf */,
+				8B7322171B440900009F4A23 /* Gotham-UltraItalic.otf */,
+				8B7322181B440900009F4A23 /* Gotham-XLight.otf */,
+				8B7322191B440900009F4A23 /* Gotham-XLightItalic.otf */,
+			);
+			name = Font;
+			path = Gotham;
+			sourceTree = "<group>";
+		};
+		8B73222D1B440A40009F4A23 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8B5ABCC91B6F63FF00E88781 /* KeychainItemWrapper.h */,
+				8B5ABCCA1B6F63FF00E88781 /* KeychainItemWrapper.m */,
+				8BBB2A161B45A1EA00F2AC49 /* SVProgressHUD */,
+				8B5ABCC31B6F36E700E88781 /* PinView */,
+				8B5ABCC41B6F36F500E88781 /* Toast */,
+				8B5ABCC51B6F36FE00E88781 /* KeyBoard */,
+				8B5ABCC61B6F370C00E88781 /* Pattern */,
+				8B5ABCC21B6F36C400E88781 /* Utilities */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		8BB1A01E1B72D4C0003DB3A1 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				8B7322001B43FAE8009F4A23 /* CCDrinkListTableViewController.h */,
+				8B7322011B43FAE8009F4A23 /* CCDrinkListTableViewController.m */,
+				8B7322061B43FB86009F4A23 /* CCOrderVerificationViewController.h */,
+				8B7322071B43FB86009F4A23 /* CCOrderVerificationViewController.m */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		8BB1A01F1B72D4C9003DB3A1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8B7321FB1B43FA64009F4A23 /* CCHomeTableViewController.h */,
+				8B7321FC1B43FA64009F4A23 /* CCHomeTableViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		8BBB2A161B45A1EA00F2AC49 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8BBB2A171B45A1EA00F2AC49 /* SVProgressHUD.bundle */,
+				8BBB2A181B45A1EA00F2AC49 /* SVProgressHUD.h */,
+				8BBB2A191B45A1EA00F2AC49 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		8BE396361B6CD46A0043A225 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8B7321D31B43F49E009F4A23 /* AppDelegate.h */,
+				8B7321D41B43F49F009F4A23 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8BE396371B6CD47B0043A225 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8B7321D91B43F49F009F4A23 /* CCLoginTableViewController.h */,
+				8B7321DA1B43F49F009F4A23 /* CCLoginTableViewController.m */,
+				8B7321DC1B43F49F009F4A23 /* CCRegistrationTableViewController.h */,
+				8B7321DD1B43F49F009F4A23 /* CCRegistrationTableViewController.m */,
+				8BE396381B6CD49C0043A225 /* CCResetPasswordTableViewController.h */,
+				8BE396391B6CD49C0043A225 /* CCResetPasswordTableViewController.m */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B7321CB1B43F49E009F4A23 /* CenturyClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7321F51B43F49F009F4A23 /* Build configuration list for PBXNativeTarget "CenturyClub" */;
+			buildPhases = (
+				89FA223B14FF1ECDA2E89208 /* Check Pods Manifest.lock */,
+				8B7321C81B43F49E009F4A23 /* Sources */,
+				8B7321C91B43F49E009F4A23 /* Frameworks */,
+				8B7321CA1B43F49E009F4A23 /* Resources */,
+				224CC8682BDC67C6F88B2920 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenturyClub;
+			productName = CenturyClub;
+			productReference = 8B7321CC1B43F49E009F4A23 /* CenturyClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B7321EA1B43F49F009F4A23 /* CenturyClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7321F81B43F49F009F4A23 /* Build configuration list for PBXNativeTarget "CenturyClubTests" */;
+			buildPhases = (
+				8B7321E71B43F49F009F4A23 /* Sources */,
+				8B7321E81B43F49F009F4A23 /* Frameworks */,
+				8B7321E91B43F49F009F4A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B7321ED1B43F49F009F4A23 /* PBXTargetDependency */,
+			);
+			name = CenturyClubTests;
+			productName = CenturyClubTests;
+			productReference = 8B7321EB1B43F49F009F4A23 /* CenturyClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B7321C41B43F49E009F4A23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = centuryclub;
+				TargetAttributes = {
+					8B7321CB1B43F49E009F4A23 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8B7321EA1B43F49F009F4A23 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8B7321CB1B43F49E009F4A23;
+					};
+				};
+			};
+			buildConfigurationList = 8B7321C71B43F49E009F4A23 /* Build configuration list for PBXProject "CenturyClub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B7321C31B43F49E009F4A23;
+			productRefGroup = 8B7321CD1B43F49E009F4A23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B7321CB1B43F49E009F4A23 /* CenturyClub */,
+				8B7321EA1B43F49F009F4A23 /* CenturyClubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B7321CA1B43F49E009F4A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B73221C1B440900009F4A23 /* Gotham-Bold.otf in Resources */,
+				8B7322211B440900009F4A23 /* Gotham-LightItalic.otf in Resources */,
+				8B7321E11B43F49F009F4A23 /* Main.storyboard in Resources */,
+				8B7322281B440900009F4A23 /* Gotham-XLight.otf in Resources */,
+				8B73221B1B440900009F4A23 /* Gotham-BlackItalic.otf in Resources */,
+				8B3E6ECD1B496AB400665740 /* TipCalculation.plist in Resources */,
+				8B73221D1B440900009F4A23 /* Gotham-BoldItalic.otf in Resources */,
+				8BE922FA1B6A391A0080FA99 /* USStates.plist in Resources */,
+				8B7322201B440900009F4A23 /* Gotham-Light.otf in Resources */,
+				8B7322291B440900009F4A23 /* Gotham-XLightItalic.otf in Resources */,
+				8B7322221B440900009F4A23 /* Gotham-Medium.otf in Resources */,
+				8B7322231B440900009F4A23 /* Gotham-MediumItalic.otf in Resources */,
+				8B7322241B440900009F4A23 /* Gotham-Thin.otf in Resources */,
+				8B73221A1B440900009F4A23 /* Gotham-Black.otf in Resources */,
+				8B7322271B440900009F4A23 /* Gotham-UltraItalic.otf in Resources */,
+				8B7322251B440900009F4A23 /* Gotham-ThinItalic.otf in Resources */,
+				8B7321E61B43F49F009F4A23 /* LaunchScreen.xib in Resources */,
+				8BBB2A1A1B45A1EA00F2AC49 /* SVProgressHUD.bundle in Resources */,
+				8B7322261B440900009F4A23 /* Gotham-Ultra.otf in Resources */,
+				8B73221F1B440900009F4A23 /* Gotham-BookItalic.otf in Resources */,
+				8B3E6ED21B49C56D00665740 /* PinViewController.xib in Resources */,
+				8B73221E1B440900009F4A23 /* Gotham-Book.otf in Resources */,
+				8B7321E31B43F49F009F4A23 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7321E91B43F49F009F4A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		224CC8682BDC67C6F88B2920 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89FA223B14FF1ECDA2E89208 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B7321C81B43F49E009F4A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B61D3FF1B637CE7006303ED /* BraintreeManager.m in Sources */,
+				8B7321DE1B43F49F009F4A23 /* CCRegistrationTableViewController.m in Sources */,
+				8B7321DB1B43F49F009F4A23 /* CCLoginTableViewController.m in Sources */,
+				8BBB2A1B1B45A1EA00F2AC49 /* SVProgressHUD.m in Sources */,
+				8B7321D81B43F49F009F4A23 /* CenturyClub.xcdatamodeld in Sources */,
+				8B7B2C5F1B48AA3F00852A50 /* Utility.m in Sources */,
+				8B7B2C5C1B48A17F00852A50 /* User.m in Sources */,
+				8B7321D51B43F49F009F4A23 /* AppDelegate.m in Sources */,
+				8B7322361B445737009F4A23 /* PatternLockMattricsView.m in Sources */,
+				8B5ABCBE1B6EF9C200E88781 /* DateManager.m in Sources */,
+				8B2170F21B500C6600EA5D37 /* UIView+Toast.m in Sources */,
+				8B5ABCC11B6F36B100E88781 /* Order.m in Sources */,
+				8BE3963A1B6CD49C0043A225 /* CCResetPasswordTableViewController.m in Sources */,
+				8BB1A01D1B72BE6D003DB3A1 /* CCHistoryDetailTableViewController.m in Sources */,
+				8BBB2A1E1B45A88200F2AC49 /* SCChangePasswordTableViewController.m in Sources */,
+				8B5ABCCB1B6F63FF00E88781 /* KeychainItemWrapper.m in Sources */,
+				8B73223B1B446F9E009F4A23 /* DAKeyboardControl.m in Sources */,
+				8B7322301B440B9B009F4A23 /* Theme.m in Sources */,
+				8B7322051B43FAFB009F4A23 /* CCSettingTableViewController.m in Sources */,
+				8B73222C1B440A36009F4A23 /* Constants.m in Sources */,
+				8B7321FD1B43FA64009F4A23 /* CCHomeTableViewController.m in Sources */,
+				8B7322331B44553D009F4A23 /* DrawPatternLockView.m in Sources */,
+				8B7321D21B43F49E009F4A23 /* main.m in Sources */,
+				8B6CF31D1B626C55006E084E /* WSManager.m in Sources */,
+				8BB1A01A1B72BAC2003DB3A1 /* CCOrderHistoryTableViewController.m in Sources */,
+				8B7322021B43FAE8009F4A23 /* CCDrinkListTableViewController.m in Sources */,
+				8B3E6ED01B49C52C00665740 /* PinViewController.m in Sources */,
+				8B7322081B43FB86009F4A23 /* CCOrderVerificationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7321E71B43F49F009F4A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7321F21B43F49F009F4A23 /* CenturyClubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B7321ED1B43F49F009F4A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B7321CB1B43F49E009F4A23 /* CenturyClub */;
+			targetProxy = 8B7321EC1B43F49F009F4A23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B7321DF1B43F49F009F4A23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7321E01B43F49F009F4A23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B7321E41B43F49F009F4A23 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7321E51B43F49F009F4A23 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B7321F31B43F49F009F4A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sabir Ali (6HT8ECHANE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sabir Ali (6HT8ECHANE)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "842b3845-5d25-4c4f-b68e-911bb95a5b7c";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B7321F41B43F49F009F4A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sabir Ali (2J48W4SF2A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sabir Ali (2J48W4SF2A)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "5b2f5b71-4b8b-40d1-9805-2a0bf0de6086";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B7321F61B43F49F009F4A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E721E4B57FC2268E441F461 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sabir Ali (6HT8ECHANE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sabir Ali (6HT8ECHANE)";
+				INFOPLIST_FILE = CenturyClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "842b3845-5d25-4c4f-b68e-911bb95a5b7c";
+			};
+			name = Debug;
+		};
+		8B7321F71B43F49F009F4A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5780265FBAC025C1ADF03E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sabir Ali (2J48W4SF2A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sabir Ali (2J48W4SF2A)";
+				INFOPLIST_FILE = CenturyClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b2f5b71-4b8b-40d1-9805-2a0bf0de6086";
+			};
+			name = Release;
+		};
+		8B7321F91B43F49F009F4A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CenturyClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenturyClub.app/CenturyClub";
+			};
+			name = Debug;
+		};
+		8B7321FA1B43F49F009F4A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CenturyClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b2f5b71-4b8b-40d1-9805-2a0bf0de6086";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenturyClub.app/CenturyClub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B7321C71B43F49E009F4A23 /* Build configuration list for PBXProject "CenturyClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7321F31B43F49F009F4A23 /* Debug */,
+				8B7321F41B43F49F009F4A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7321F51B43F49F009F4A23 /* Build configuration list for PBXNativeTarget "CenturyClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7321F61B43F49F009F4A23 /* Debug */,
+				8B7321F71B43F49F009F4A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7321F81B43F49F009F4A23 /* Build configuration list for PBXNativeTarget "CenturyClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7321F91B43F49F009F4A23 /* Debug */,
+				8B7321FA1B43F49F009F4A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B7321D61B43F49F009F4A23 /* CenturyClub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B7321D71B43F49F009F4A23 /* CenturyClub.xcdatamodel */,
+			);
+			currentVersion = 8B7321D71B43F49F009F4A23 /* CenturyClub.xcdatamodel */;
+			path = CenturyClub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B7321C41B43F49E009F4A23 /* Project object */;
+}
